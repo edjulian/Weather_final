@@ -1,0 +1,253 @@
+body{
+    background-image: url(images/cloudy_day.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+.wrapper{
+    background-color: rgb(255, 255, 255);
+    padding-top: 4%;
+    margin-top: 0px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.title{
+/*    background-color: #f05d90;*/
+    padding-top: 0px;
+    margin: 0px;
+    margin-left: 2%;
+    font-size: 95px;
+    line-height: 1.2;
+    font-family: bely-display, sans-serif;
+font-weight: 400;
+font-style: normal;
+    color: white;
+}
+
+.header{
+    background-color: #74b4d1;
+    padding: 2%;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: auto;
+}
+
+.search{
+    font-size: 25px;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 40px;
+    margin-bottom: 2%;
+    font-family: quatro-slab, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.btn{
+    background-color: white;
+    font-size: 25px;
+    margin-left: auto;
+    border-radius: 40px;
+    margin-right: 8%;
+   font-family: quatro-slab, serif;
+font-weight: 400;
+font-style: normal;
+    
+}
+
+.zipcity{
+    font-size: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    font-family: quatro-slab, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.location{
+/*    background-color: skyblue;*/
+    font-size: 125px;
+    text-align: left;
+    float: left;
+    font-family: quatro-slab, serif;
+font-weight: 500;
+    color: #74b4d1;
+    
+}
+
+.temp{
+/*    background-color: deepskyblue;*/
+    text-align: left;
+    font-size: 130px;
+    float: left;
+    margin-right: 9%;
+    font-family: quatro-slab, serif;
+font-weight: 500;
+font-style: normal;
+    color: #676767;
+    
+}
+
+.image{
+/*    background-color: mediumslateblue;*/
+    float: right;
+    
+}
+
+.desc{
+/*    background-color: #584ca2;*/
+    float: right;
+    font-size: 60px;
+    text-align: center;
+    font-family: quatro-slab, serif;
+font-weight: 400;
+font-style: italic;
+    color: #676767;
+}
+
+#showWeather h1{
+    font-size: 90px;
+    font-family: quatro-slab, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+#showWeather h3{
+    font-size: 120px;
+    font-family: quatro-slab, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+#showWeather p{
+    font-size: 60px;
+    font-family: quatro-slab, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+
+/*
+z
+@media screen and (max-width: 1200px){
+    
+    body{
+        background-color: cadetblue
+    }
+    
+    .location{
+        font-size: 95px;
+    }
+    
+    .temp{
+        font-size: 120px;
+    }
+    .title{
+        font-size: 65px;
+    }
+}
+*/
+
+/*
+@media screen and (max-width: 990px){
+    
+    body{
+        background-color: indianred;
+    }
+    
+    .location{
+        font-size: 130px;
+        text-align: center;
+        margin-bottom: 2%
+    }
+    
+    .temp{
+        font-size: 160px;
+        margin-right: 0%;
+        text-align: center;
+    }
+    .desc{
+        font-size: 100px;
+        margin-left: 2%;
+    }
+    .zipcity{
+        display: none;
+    }
+    
+    .search{
+        margin-left: 2%;
+        margin-right: 3%;
+        margin-bottom: 0px;
+    }
+    
+    .btn{
+        margin: 0px;
+    }
+    
+    .title{
+        margin-bottom: 3%;
+    }
+}
+*/
+
+/*
+@media screen and (max-width: 762px){
+    
+    body{
+        background-color: mediumpurple;
+    }
+    
+    .location{
+        font-size: 100px;
+        text-align: center;
+        margin-bottom: 2%
+    }
+    
+    .temp{
+        font-size: 150px;
+        margin-right: 0%;
+        text-align: center;
+    }
+    .desc{
+        font-size: 120px;
+        margin-left: 2%;
+    }
+    .zipcity{
+        display: none;
+    }
+    
+    .search{
+        margin-left: 2%;
+        margin-right: 3%;
+        margin-bottom: 0px;
+    }
+    
+    .btn{
+        margin: 0px;
+    }
+    
+    .title{
+        margin-bottom: 3%;
+    }
+}
+*/
+
+
+
+
+
+
+
+
